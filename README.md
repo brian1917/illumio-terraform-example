@@ -1,13 +1,13 @@
 # Illumio Terraform Example
 
 ## Description
-Example of creating labels and unmanaged workloads from JSON files using Terraform.
+Example of creating labels and unmanaged workloads from JSON files using Illumio Terraform provider.
 
 ## Input Files
 See `input_files` directory for two JSON files that define labels and unmanaged workloads.
 
 ## Terraform Version
-Testing completed on Terraform 1.4.6
+Testing completed on Terraform 1.3.2
 
 ## Example Command
 ```
