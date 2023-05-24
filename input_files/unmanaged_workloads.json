@@ -1,0 +1,58 @@
+{
+    "web01.test.com": {
+      "name": "web01.test.com",
+      "hostname": "web01.test.com",
+      "public_ip": "",
+      "description": "",
+      "enforcement_mode": "visibility_only",
+      "online": true,
+      "interfaces": {
+        "name": "eth0",
+        "address": "10.1.1.1",
+        "cidr_block": 32,
+        "link_state": "up"
+      },
+      "labels": [
+        {
+          "key": "role",
+          "value": "web"
+        },
+        {
+          "key": "app",
+          "value": "erp"
+        },
+        {
+          "key": "env",
+          "value": "prod"
+        }
+      ]
+    },
+    "web02.test.com": {
+        "name": "web02.test.com",
+        "hostname": "web02.test.com",
+        "public_ip": "",
+        "description": "",
+        "enforcement_mode": "visibility_only",
+        "online": true,
+        "interfaces": {
+          "name": "eth0",
+          "address": "10.1.1.2",
+          "cidr_block": 32,
+          "link_state": "up"
+        },
+        "labels": [
+          {
+            "key": "role",
+            "value": "web"
+          },
+          {
+            "key": "app",
+            "value": "erp"
+          },
+          {
+            "key": "env",
+            "value": "prod"
+          }
+        ]
+      }
+  }

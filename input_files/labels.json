@@ -1,0 +1,14 @@
+{
+    "app:erp": {
+      "key": "app",
+      "value": "erp"
+    },
+    "role:web": {
+      "key": "role",
+      "value": "web"
+    },
+    "env:prod": {
+      "key": "env",
+      "value": "prod"
+    }
+}
